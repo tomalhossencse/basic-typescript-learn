@@ -14,7 +14,8 @@ const RollNumbers: GenericArray<number> = [4, 7, 11];
 // const isRight: Array<boolean> = [true, false, true];
 const isRight: GenericArray<boolean> = [true, false, true];
 
-const userList: GenericArray<{ name: string; age: number }> = [
+type User = { name: string; age: number };
+const userList: GenericArray<User> = [
   {
     name: "Habibur Rahman",
     age: 34,
