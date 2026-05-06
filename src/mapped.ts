@@ -33,6 +33,13 @@ type AreaOfSting = {
 
 type Area<T> = {
   [key in keyof T]: T[key];
+
+  //key >> height >> number
+
+  // key >> width >> string
+
+  //   T  >>> {height : string ; width : number}
+  // T['width'] : number
 };
 
 const area1: Area<{ hieght: number; width: string }> = {
