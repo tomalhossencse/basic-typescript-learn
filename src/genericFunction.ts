@@ -6,7 +6,9 @@
 const createArrayWithGeneric = <T>(value: T) => [value];
 
 const arrString = createArrayWithGeneric("Apple");
+
 const arrNumber = createArrayWithGeneric(222);
+
 const arrObj = createArrayWithGeneric({
   id: 100,
   name: "Jamal Hossen",
