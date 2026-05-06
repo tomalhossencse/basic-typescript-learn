@@ -1,6 +1,6 @@
 // inheritance => 1st piller of OOP
 
-class Parent {
+class Person {
   name: string;
   age: number;
   adress: string;
@@ -16,13 +16,13 @@ class Parent {
   }
 }
 
-class Student extends Parent {}
+class Student extends Person {}
 
 const student1 = new Student("kamal", 24, "Kanapur", "290238409");
 
 student1.getSleep(23);
 
-class Developer extends Parent {
+class Developer extends Person {
   designation: string; //own
 
   constructor(
