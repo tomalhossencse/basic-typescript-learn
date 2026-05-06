@@ -23,7 +23,7 @@ type NormalUser = {
   name: String;
 };
 
-type AdminUser = {
+type AdminUsers = {
   name: string;
   role: "Admin";
 };
